@@ -1,0 +1,13 @@
+4
+Juan,01,3
+Gripa
+fiebre
+Tos
+Juan,02,2
+Tos
+gripa
+Daniel,03,1
+Tos
+Camilo,04,2
+Fiebre
+Dolor de cabeza
