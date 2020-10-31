@@ -1,4 +1,4 @@
-7
+10
 Daniel,01,2
 Gripa
 Fiebre
@@ -22,3 +22,15 @@ Gripa
 Tos
 Dolor de cabeza 
 Dolor muscular
+Waira,08,2
+Tos
+Fiebre
+Mauricio,09,3
+Fiebre
+Gripa
+Malestar
+Sergio,10,4
+Tos
+Gripa
+Fiebre
+Malestar

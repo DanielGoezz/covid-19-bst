@@ -74,7 +74,7 @@ public class Arbol
         return buscador(node.left, id);
     }
 	
-    public boolean encontrarRepetido(Paciente paciente)
+    public boolean encontrarRepetido(Paciente paciente) //2. El sistema no debe permitir registrar al mismo paciente dos veces.
     {
     	Paciente encontrar = buscador(paciente.id);
     	
@@ -180,8 +180,9 @@ public class Arbol
 		}
     	if (root.left == null && root.rigth == null) 
     	{
-    		valorPagar= valorPagar / contador;
-    		System.out.println("El promedio es: " + valorPagar);
+			valorPagar= valorPagar / contador;
+    		System.out.println("El promedio es: $" + valorPagar);
+    		contador++;
     	}
 	}
 }

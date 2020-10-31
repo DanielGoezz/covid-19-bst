@@ -15,6 +15,7 @@ public class Program
 		String [] arrDatosPacientes;
 		String [] arrDatosSintomas;
 		
+		//1. Su sistema debe permitir registrar nuevos pacientes y sus síntomas desde un archivo.
 		for(int i = 0 ; i < cantidadPacientes ; i++)
 		{
 			arrDatosPacientes = bf.readLine().split(",");
@@ -38,12 +39,15 @@ public class Program
 		System.out.println("\nSe encontró el paciente " + PacienteEncontrado.Nombre + " sus sintomas son: ");
 		PacienteEncontrado.imprimirSintoma(PacienteEncontrado.sintomaList);
 		
-		
+		//4. Todos los pacientes deben pagar una amenaza según el número de síntomas
 		System.out.println("\n============ 4to requerimiento ===========\n");
 		ar.imprimirArbol(ar.root);
 		
+		//5. El sistema debe reportar la siguiente información:
 		System.out.println("\n============ 5to requerimiento ===========\n");
+		// a) ¿Cuántos pacientes tiene fiebre?
 		ar.contarPacientesArbol(ar.root, 0);
+		// c) Lo que pagan los pacientes en promedio (debe cubrir a todos los pacientes)
 		ar.imprimirPromedio(ar.root, 1, 0);
 		
 		
