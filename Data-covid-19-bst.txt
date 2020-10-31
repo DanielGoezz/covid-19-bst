@@ -1,13 +1,24 @@
-4
-Juan,01,3
+7
+Daniel,01,2
 Gripa
-fiebre
-Tos
-Juan,02,2
-Tos
-gripa
-Daniel,03,1
-Tos
-Camilo,04,2
 Fiebre
-Dolor de cabeza
+Juan,02,3
+Gripa
+Tos
+Malestar
+Sebastian,03,1
+Fiebre
+Camilo,04,2
+Gripa
+Dolor de garganta
+felipe,05,1
+Dolor muscular
+Carlos,06,3
+Fiebre
+Gripa
+Tos
+Mario,07,4
+Gripa
+Tos
+Dolor de cabeza 
+Dolor muscular
